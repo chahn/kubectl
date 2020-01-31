@@ -14,5 +14,5 @@ build-master:
     - docker push "$PUBLIC_REGISTRY/$PUBLIC_NAMESPACE/$PUBLIC_IMAGE:latest"
 #  only:
 #    - tags
-  except:
-    - branches
+#  except:
+#    - branches
