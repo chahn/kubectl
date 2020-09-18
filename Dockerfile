@@ -5,7 +5,7 @@ FROM alpine:3
 # Latest:
 # curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 
-ENV KUBE_LATEST_VERSION="v1.19.0"
+ENV KUBE_LATEST_VERSION="v1.19.2"
 
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
