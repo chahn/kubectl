@@ -9,7 +9,7 @@ ENV KUBE_LATEST_VERSION="v1.20.4"
 
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="v3.5.2"
+ENV HELM_VERSION="v3.5.3"
 
 RUN apk add --no-cache ca-certificates bash git openssh curl \
     && wget -q https://storage.googleapis.com/kubernetes-release/release/${KUBE_LATEST_VERSION}/bin/linux/amd64/kubectl -O /usr/local/bin/kubectl \
