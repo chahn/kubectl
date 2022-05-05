@@ -1,8 +1,9 @@
 FROM alpine:3
 
 # Note: Latest version of kubectl may be found at:
-# https://storage.googleapis.com/kubernetes-release/release/stable.txt
+# https://kubernetes.io/releases/
 # Latest:
+# https://github.com/helm/helm/releases
 # curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 
 ENV KUBE_LATEST_VERSION="v1.21.11"
